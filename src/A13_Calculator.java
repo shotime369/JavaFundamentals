@@ -36,6 +36,8 @@ private final String operator;
                     operate());
             System.out.println("10 / 2 = " + new A13_Calculator(10, 2, "/").
                     operate());
+        System.out.println("10 % 2 = " + new A13_Calculator(10, 2, "%").
+                operate());
     }
     }
 
